@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : {
-      'hero' : "url(/Users/alkhtabalrashdy/My-Portfolio/src/assets/DJI_0205.jpg)"
+      'hero' : "url(../src/assets/DJI_0205.jpg)",
+      'hero2' :"url(../src/assets/DJI_0236.jpg)",
       },
       fontFamily: {
-        babapro:["BabaPro-Bold"]
+        helvetica:["Helvetica"],
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

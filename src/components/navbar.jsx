@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo_b.png';
+import Logo from '../assets/logo_w.png';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -15,22 +15,28 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-black font-babapro tracking-wide text-sm '>
-      <div>
-        <img src={Logo} alt='Logo Image'  style={{ width: '50px' }}/>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-zinc-100 text-xl'>
+      <div className='ml-4'>
+        <img src={Logo} alt='Logo Image'  style={{ width: '50px' }} />
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex gap-6 mr-6 font-bold  '>
         <li>
-          <Link to='home' smooth={true} duration={500}>
-            Home
-          </Link>
+          <button className='hover:scale-110 transition duration-300 ease-in-out'>
+            <Link to='home' smooth={true} duration={500}>
+              Home
+            </Link>
+          </button>
+
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
-            About
-          </Link>
+          <button className='hover:scale-110 transition duration-300 ease-in-out'>
+            <Link to='aboutme' smooth={true} duration={500}>
+              About
+            </Link>
+          </button>
+
         </li>
         <li>
           <Link to='skills' smooth={true} duration={500}>
