@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       backgroundImage : {
       'hero' : "url(/Users/alkhtabalrashdy/My-Portfolio/src/assets/DJI_0205.jpg)"
+      },
+      fontFamily: {
+        babapro:["BabaPro-Bold"]
       }
     },
   },
