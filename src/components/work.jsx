@@ -28,7 +28,7 @@ const Work = () => {
                     <div className='text-5xl font-bold text-white mb-1 border-b-4 border-b-[#55a8aa] mt-60'>Work</div>
                     <div className='md:grid md:grid-cols-3 md:gap-8 sm:flex sm:flex-col  sm:gap-5 sm:items-center  mt-20'>
 
-                        <div  class="h-96 w-96 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-3xl  shadow-xl  ">
+                        <div  className="h-96 w-96 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-3xl  shadow-xl  ">
                             <button className='mt-[21.4rem] ml-[21rem] absolute' onClick={handleClick}>
                                 {!nav ?                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
@@ -49,7 +49,9 @@ const Work = () => {
                             leaveFrom="opacity-100"
                             leaveTo="opacity-0"
                             class="px-9 py-10 absolute ">
-                                <h5 class="mb-2 ml-2 text-2xl font-bold  text-white">ChocAn</h5>
+                                <h5 class=" ml-2 text-2xl font-bold  text-white">ChocAn</h5>
+                                <h5 class=" ml-2 text-sm   text-zinc-100/80">Data Processing Software</h5>
+
                             </Transition>
                             <Transition
                             show={nav}
@@ -68,8 +70,7 @@ const Work = () => {
                             </Transition>
                         </div>
 
-
-                        <div  class=" md:col-span-2 sm:w-96 md:w-[49.7rem]  md:h-96 sm:h-[30rem]    bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-3xl  shadow-xl  ">
+                        <div  className=" md:col-span-2 sm:w-96 md:w-[49.7rem]  md:h-96 sm:h-[30rem]    bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-3xl  shadow-xl  ">
                             <button className='md:mt-[21.4rem] sm:mt-[27.3rem] md:ml-[46.7rem] sm:ml-[21rem] absolute' onClick={handleClick1}>
                                 {!nav1 ?                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
@@ -90,7 +91,9 @@ const Work = () => {
                             leaveFrom="opacity-100"
                             leaveTo="opacity-0"
                             class="px-9 py-10 absolute ">
-                                <h5 class="mb-2 ml-2 text-2xl font-bold  text-white">WonderTix</h5>
+                                <h5 class="ml-2 text-2xl font-bold  text-white">WonderTix</h5>
+                                <h5 class=" ml-2 text-sm   text-zinc-100/80">Website Development</h5>
+
                             </Transition>
                             <Transition
                             show={nav1}
@@ -133,7 +136,9 @@ const Work = () => {
                             leaveFrom="opacity-100"
                             leaveTo="opacity-0"
                             class="px-9 py-10 absolute ">
-                                <h5 class="mb-2 ml-2 text-2xl font-bold  text-white">C Tran Traffic</h5>
+                                <h5 class=" ml-2 text-2xl font-bold  text-white">C Tran Traffic</h5>
+                                <h5 class=" ml-2 text-sm   text-zinc-700/80">Data Engineering Software</h5>
+
                             </Transition>
                             <Transition
                             show={nav3}
@@ -152,10 +157,10 @@ const Work = () => {
                             </Transition>
                         </div>
 
-                        <div  class=" h-96 w-96 bg-gradient-to-r from-purple-400 to-yellow-400 rounded-3xl  shadow-xl  ">
-                            <button className='mt-[21.4rem] ml-[21rem] absolute' onClick={handleClick2}>
+                        <div  class=" h-96 w-96 bg-gradient-to-r  from-purple-400 to-yellow-400 rounded-3xl  shadow-xl  " >
+                            <button className=' mt-[21.4rem] ml-[21rem] absolute ' onClick={handleClick2} >
                                 {!nav2 ?                                 
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8  "  fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                 :                                
@@ -173,7 +178,9 @@ const Work = () => {
                             leaveFrom="opacity-100"
                             leaveTo="opacity-0"
                             class="px-9 py-10 absolute ">
-                                <h5 class="mb-2 ml-2 text-2xl font-bold  text-white">A.I. Wordle Solver</h5>
+                                <h5 class="ml-2 text-2xl font-bold  text-white">A.I. Wordle Solver</h5>
+                                <h5 class=" ml-2 text-sm   text-zinc-100/80">A.I. Software</h5>
+
                             </Transition>
                             <Transition
                             show={nav2}
@@ -193,11 +200,8 @@ const Work = () => {
 
                         </div>
 
-
-
-                        
                         <div  class="h-96 w-96  border-none   bg-gradient-to-bl from-rose-400 via-fuchsia-500 to-indigo-500 rounded-3xl  shadow-xl  ">
-                            <button className='mt-[21.4rem] ml-[21rem] absolute' onClick={handleClick4}>
+                            <button className='mt-[21.4rem] ml-[21rem] absolute ' onClick={handleClick4} >
                                 {!nav4 ?                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 " fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -218,7 +222,9 @@ const Work = () => {
                             leaveFrom="opacity-100"
                             leaveTo="opacity-0"
                             class="px-9 py-10 absolute ">
-                                <h5 class="mb-2 ml-2 text-2xl font-bold  text-white">Laser Tag Game Simulator</h5>
+                                <h5 class=" ml-2 text-2xl font-bold  text-white">Laser Tag Game Simulator</h5>
+                                <h5 class=" ml-2 text-sm   text-zinc-100/80">Fun game to play </h5>
+
                             </Transition>
                             <Transition
                             show={nav4}

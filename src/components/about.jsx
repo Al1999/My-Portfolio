@@ -6,7 +6,7 @@ const About = () => {
     <div name = 'aboutme' className=' bg-gradient-to-t from-black to-[#00242e]   h-[66rem] w-full py-[10rem] px-4'>
       <div className='flex flex-col items-center'>
         <div className='text-5xl font-bold text-white border-b-4 border-b-[#55a8aa]'>About Me</div>
-        <div className='flex md:flex-row sm:flex-col sm:items-center gap-10 '>
+        <div className='flex md:flex-row sm:flex-col sm:items-center gap-10 m-10'>
           <div className="avatar md:ml-40 md:mt-40  sm:mt-20 ">
                   <div className="w-96 mask mask-squircle hover:scale-110 transition duration-300 ease-in-out">
                       <img src={mypic} alt="/"/>

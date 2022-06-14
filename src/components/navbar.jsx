@@ -9,13 +9,13 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo_w.png';
 import { Link } from 'react-scroll';
-
+import resume from '../assets/Al_Resume.pdf'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-zinc-100 text-xl'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-zinc-100 text-xl'>
       <div className='ml-4'>
         <img src={Logo} alt='Logo Image'  style={{ width: '50px' }} />
       </div>
@@ -39,19 +39,25 @@ const Navbar = () => {
 
         </li>
         <li>
+        <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
+          </button>
         </li>
         <li>
+        <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
+          </button>
         </li>
         <li>
+        <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
+          </button>
         </li>
       </ul>
 
@@ -69,33 +75,43 @@ const Navbar = () => {
         }
       >
         <li className='py-6 text-4xl'>
+        <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
+          </button>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
+          <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
+          </button>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
+          <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
+          </button>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
+          <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
+          </button>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
+          <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
           </Link>
+          </button>
         </li>
       </ul>
 
@@ -104,8 +120,8 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600/60'>
             <a
-              className='flex mr-3 ml-7 justify-between items-center w-full text-gray-300 '
-              href='/'
+              className='flex mr-3 ml-6 justify-between items-center w-full text-gray-300 '
+              href='https://www.linkedin.com/in/alkhatab-alrashdi-584614175'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -113,7 +129,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]/60'>
             <a
               className='flex mr-3 ml-7 justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/Al1999'
             >
               Github <FaGithub size={30} />
             </a>
@@ -121,7 +137,7 @@ const Navbar = () => {
           <li className='w-[160px]  h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]/60'>
             <a
               className='flex mr-3 ml-7 justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto: alkhataby22@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -129,7 +145,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]/60'>
             <a
               className='flex mr-3 ml-7 justify-between items-center w-full text-gray-300'
-              href='/'
+              href={resume} download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
