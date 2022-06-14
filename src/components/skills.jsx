@@ -11,64 +11,39 @@ import css from "../assets/732190.png"
 
 const Skills=() => {
   return (
-    <div name = 'skills' className=' bg-black    h-screen w-full py-[10rem] px-4'>
+    <div name = 'skills' className=' bg-black   h-[66rem] w-full py-[10rem] px-4'>
         <div className='flex flex-col items-center'>
-            <div className='text-5xl font-bold text-white mb-20'>Skills</div>
-            <div className='grid grid-cols-3 gap-9  border-non mt-40 '>
-  
-                <button  className="hover:scale-105 h-80 w-80 transition duration-300 ease-in-out border-none  bg-blue-200 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={cplus} alt='Logo Image'  style={{ width: '170px' }}/>
-                    </div>
-                </button>
+            <div className='text-5xl font-bold text-white mb-1 border-b-4 border-b-[#55a8aa] '>Skills</div>
+            <div className='text-lg font-thin text-white '>I have worked on these languages (scroll to left)</div>
+            <div className=' border-non mt-10 '>
+            <div class="carousel carousel-center max-w-6xl p-10 space-x-9  rounded-box">
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={cplus} class="rounded-box" style={{ width: '180px', height:'200px' }}/>
+                </div> 
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={python} class="rounded-box" style={{ width: '200px' }}/>
+                </div>  
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-10 rounded-3xl">
+                    <img src={java} class="rounded-box" style={{ width: '170px' }}/>
+                </div> 
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={react_js} class="rounded-box" style={{ width: '260px' }}/>
+                </div> 
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={html} class="rounded-box" style={{ width: '180px', height:'200px' }}/>
+                </div> 
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={c} class="rounded-box" style={{  width: '180px', height:'200px'}}/>
+                </div>  
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={js} class="rounded-box" style={{  width: '180px', height:'200px'}}/>
+                </div> 
+                <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
+                    <img src={css} class="rounded-box" style={{  width: '180px', height:'200px' }}/>
+                </div> 
+            </div>
 
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-zinc-100 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={c} alt='Logo Image'  style={{ width: '170px' }}/>
 
-                    </div>
-                </button>
-
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-orange-100 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={java} alt='Logo Image'  style={{ width: '170px' }}/>
-                    </div>
-                </button>
-
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-yellow-200 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={python} alt='Logo Image'  style={{ width: '170px' }}/>
-                    </div>
-                </button>
-
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-sky-100 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        
-                        <img src={react_js} alt='Logo Image'  style={{ width: '170px' }}/>
-
-                    </div>
-                </button>
-
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-zinc-700 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={js} alt='Logo Image'  style={{ width: '170px' }}/>
-
-                    </div>
-                </button>
-
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-zinc-200 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={html} alt='Logo Image'  style={{ width: '170px' }}/>
-
-                    </div>
-                </button>
-
-                <button  className="hover:scale-105 h-80  transition duration-300 ease-in-out border-none  bg-zinc-200 rounded-3xl  shadow-xl  "> 
-                    <div className='m-8 flex flex-col items-center'>
-                        <img src={css} alt='Logo Image'  style={{ width: '170px' }}/>
-
-                    </div>
-                </button>
             </div>
         </div>
     </div>

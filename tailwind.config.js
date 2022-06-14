@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage : {
-      'hero' : "url(../src/assets/DJI_0205.jpg)",
+      'hero' : "url(../src/assets/DSC06842.jpg)",
       'hero2' :"url(../src/assets/DJI_0236.jpg)",
       },
       fontFamily: {
