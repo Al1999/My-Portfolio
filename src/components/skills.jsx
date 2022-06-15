@@ -16,7 +16,7 @@ const Skills=() => {
             <div className='text-5xl font-bold text-white mb-5 border-b-4 border-b-[#55a8aa] '>Skills</div>
             <div className='text-lg font-thin text-white '>I have worked on these languages (scroll to left)</div>
             <div className=' border-non mt-10 '>
-            <div class="carousel carousel-center md:max-w-6xl sm:max-w-xl p-10 space-x-9  rounded-box">
+            <div class="carousel carousel-center md:max-w-6xl sm:max-w-sm p-10 space-x-9  rounded-box">
                 <div class="carousel-item bg-white mask mask-squircle px-16 py-8 rounded-3xl">
                     <img src={cplus} class="rounded-box" style={{ width: '180px', height:'200px' }}/>
                 </div> 

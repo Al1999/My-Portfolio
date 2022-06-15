@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc4d9edd.css",
+    "main.js": "/static/js/main.1748745d.js",
+    "static/media/DJI_0236.jpg": "/static/media/DJI_0236.05fec3532fd75fce722c.jpg",
+    "static/media/DSC06842.jpg": "/static/media/DSC06842.0f87bcf877f3245bc3ef.jpg",
+    "static/media/DSC08745.jpeg": "/static/media/DSC08745.a619c08d7f3492be2c28.jpeg",
+    "static/media/Helvetica.ttf": "/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
+    "static/media/React-icon.svg.png": "/static/media/React-icon.svg.8a6fc0a24a800d1e0f4a.png",
+    "static/media/1822px-ISO_C++_Logo.svg.png": "/static/media/1822px-ISO_C++_Logo.svg.b16266e0c47f8bfa2e3e.png",
+    "static/media/Al_Resume.pdf": "/static/media/Al_Resume.92780efe97ffdb3682c8.pdf",
+    "static/media/926px-C_Programming_Language.svg.png": "/static/media/926px-C_Programming_Language.svg.e01ad20e2109a9e61657.png",
+    "static/media/logo_w.png": "/static/media/logo_w.686e33b2be6dfb999f68.png",
+    "static/media/226777.png": "/static/media/226777.f5dd86c3ef6ef3f85acf.png",
+    "static/media/1216733.png": "/static/media/1216733.2c6a71b184b518b01b9a.png",
+    "static/media/732190.png": "/static/media/732190.463e319bad8e0edf1ef7.png",
+    "static/media/267_Python-512.webp": "/static/media/267_Python-512.7a9da81b5ea6a4550127.webp",
+    "index.html": "/index.html",
+    "main.fc4d9edd.css.map": "/static/css/main.fc4d9edd.css.map",
+    "main.1748745d.js.map": "/static/js/main.1748745d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc4d9edd.css",
+    "static/js/main.1748745d.js"
+  ]
+}

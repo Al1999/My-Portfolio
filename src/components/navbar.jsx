@@ -84,7 +84,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <button className='hover:scale-110 transition duration-300 ease-in-out'>
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='aboutme' smooth={true} duration={500}>
             About
           </Link>
           </button>
