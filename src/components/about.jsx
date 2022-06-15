@@ -13,7 +13,7 @@ const About = () => {
                   </div>
           </div>
       
-          <p1 className="md:mt-[210px] md:mr-12 sm:text-center mr-3 ml-3  font-helvetica leading-relaxed ">
+          <p1 className="md:mt-[210px] text-zinc-200  md:mr-12 sm:text-center mr-3 ml-3  font-helvetica leading-relaxed ">
             My experience includes many aspects such as graphic design, programming, film creation, and many others that I have been improving myself in them to be more successful than before. My skills include Programming in Java, C++, C, and Python, photography, and adobe photoshop. I would like to say that getting older doesn't make you more expert except if you improve your skill.       
             </p1>
       

@@ -16,11 +16,12 @@ module.exports = {
       backgroundImage : {
       'hero' : "url(../src/assets/DSC06842.jpg)",
       'hero2' :"url(../src/assets/DJI_0236.jpg)",
+      'herom' :"url(../src/assets/bg_m.jpg)", 
       },
       fontFamily: {
         helvetica:["Helvetica"],
       }
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui")], 
 }

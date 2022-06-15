@@ -22,7 +22,7 @@ const Work = () => {
 
   return (
     <div name = 'work'   className='w-full h-full'>
-        <div className ='w-full h-full bg-hero bg-cover bg-fixed overflow-x-hidden '>
+        <div className ='w-full h-full bg-hero bg-no-repeat bg-center overflow-hidden bg-cover md:bg-fixed sm:bg-scroll '>
             <div className='w-full h-full bg-gradient-to-b from-black  '>
                  <div className='flex flex-col items-center py-9 '>
                     <div className='text-5xl font-bold text-white mb-1 border-b-4 border-b-[#55a8aa] mt-60'>Work</div>
