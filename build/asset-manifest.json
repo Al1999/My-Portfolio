@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75665758.css",
-    "main.js": "/static/js/main.265c4dfc.js",
+    "main.js": "/static/js/main.48c6685f.js",
     "static/media/DJI_0236.jpg": "/static/media/DJI_0236.05fec3532fd75fce722c.jpg",
     "static/media/DSC06842.jpg": "/static/media/DSC06842.0f87bcf877f3245bc3ef.jpg",
     "static/media/bg_m.jpg": "/static/media/bg_m.1a39008553f880f26370.jpg",
@@ -18,10 +18,10 @@
     "static/media/267_Python-512.webp": "/static/media/267_Python-512.7a9da81b5ea6a4550127.webp",
     "index.html": "/index.html",
     "main.75665758.css.map": "/static/css/main.75665758.css.map",
-    "main.265c4dfc.js.map": "/static/js/main.265c4dfc.js.map"
+    "main.48c6685f.js.map": "/static/js/main.48c6685f.js.map"
   },
   "entrypoints": [
     "static/css/main.75665758.css",
-    "static/js/main.265c4dfc.js"
+    "static/js/main.48c6685f.js"
   ]
 }

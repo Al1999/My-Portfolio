@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 
+
 import { Transition } from '@headlessui/react'
 
 
@@ -66,7 +67,7 @@ const Work = () => {
                                     <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">The Chocoholics Anonymous Data Processing software will handle data processing for requests made through provider and manager terminals via simulated keyboard inputs.</h5>
                                     <h5 class="mb-2 ml-2 text-xl font-bold  text-white">Coded with:</h5>
                                     <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">Java</h5>
-                                    <a href='/' className='hover:scale-105  transition duration-300 ease-in-out border px-7 py-2 text-white rounded-full mt-4 hover:text-black hover:bg-white'>Code</a>
+                                    <a href='https://github.com/Al1999/ChocAn-Software' className='hover:scale-105  transition duration-300 ease-in-out border px-7 py-2 text-white rounded-full mt-4 hover:text-black hover:bg-white'>Code</a>
                             </Transition>
                         </div>
 
@@ -93,7 +94,6 @@ const Work = () => {
                             class="px-9 py-10 absolute ">
                                 <h5 class="ml-2 text-2xl font-bold  text-white">WonderTix</h5>
                                 <h5 class=" ml-2 text-sm   text-zinc-100/80">Website Development</h5>
-
                             </Transition>
                             <Transition
                             show={nav1}
@@ -108,7 +108,7 @@ const Work = () => {
                                     <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">WonderTix is ticketing system for a non-profit play house located in Portland. I have contributed in developing the front-end of the website and planning the project.</h5>
                                     <h5 class="mb-2 ml-2 text-xl font-bold  text-white">Coded with:</h5>
                                     <h5 class="mb-2 ml-2 text-md text-start text-zinc-200">React.js, Js, Typescript, HTML5, Postgres, TailwindCSS</h5>
-                                    <button className='hover:scale-105  transition duration-300 ease-in-out border px-7 py-2 text-white rounded-full  sm:mt-24 hover:text-black hover:bg-white'>Demo</button>
+                                    <a href="/" className='hover:scale-105  transition duration-300 ease-in-out border px-7 py-2 text-white rounded-full  sm:mt-24 hover:text-black hover:bg-white'>Demo</a>
                             </Transition>
 
                         </div>
