@@ -18,7 +18,11 @@ const About = () => {
            and skills that made me achieve my goals.
             Starting from developing a whole website front-end
              for the best user experience to book a ticket for a
-              performance or an event in a play house to developing a CRM where the play house admin can manage events, view sales reports, and manage users' accounts. This is one example of a project that I have learned a lot from and spent my time and effort to offer the best. Skills can be learned and can be gained by going to the field and working hard to achieve the standards that I put for myself. Using my skills in programming in python, Javascript, C++, C, Java, and React made me strengthened my ability to develop and build programs that could help others.            </p1>
+              performance or an event in a play house to developing
+               a CRM where the play house admin can manage events,
+                view sales reports, and manage users' accounts. This is one example of a project that I have learned a lot from and spent my time and effort to offer the best. Skills can be learned and can be gained by going to the field
+                 and working hard to achieve the standards that I put for myself. Using my skills in programming in python, Javascript, C++, C, Java,
+                 and React made me strengthened my ability to develop and build programs that could help others.            </p1>
       
 
         </div>
