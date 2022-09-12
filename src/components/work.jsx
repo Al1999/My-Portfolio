@@ -105,10 +105,11 @@ const Work = () => {
                             leaveTo="opacity-0"
                             class=" flex md:h-96 sm:w-96 md:w-auto sm:h-[30rem] px-9 py-10 rounded-3xl flex-col items-start bg-zinc-800/40">
                                     <h5 class="mb-2 ml-2 text-xl font-bold  text-white">Summary:</h5>
-                                    <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">WonderTix is ticketing system for a non-profit play house located in Portland. I have contributed in developing the front-end of the website and planning the project.</h5>
+                                    <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">Wondertix is a full-featured ticket sales plaform and CRM built for Portland Playhouse. It consists of a
+                                     ticketing frontend, and ticketing and CRM administrative panels and will serve a variety of purposes, from managing email campaigns, to managing ticket sales.</h5>
                                     <h5 class="mb-2 ml-2 text-xl font-bold  text-white">Coded with:</h5>
                                     <h5 class="mb-2 ml-2 text-md text-start text-zinc-200">React.js, Js, Typescript, HTML5, Postgres, TailwindCSS</h5>
-                                    <a href="/" className='hover:scale-105  transition duration-300 ease-in-out border px-7 py-2 text-white rounded-full  sm:mt-24 hover:text-black hover:bg-white'>Demo</a>
+                                    <a href="https://github.com/WonderTix/WonderTix.git" className='hover:scale-105  transition duration-300 ease-in-out border px-7 py-2 text-white rounded-full  sm:mt-14 hover:text-black hover:bg-white'>Demo</a>
                             </Transition>
 
                         </div>

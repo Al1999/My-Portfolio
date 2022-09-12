@@ -1,5 +1,5 @@
 import React from 'react'
-import mypic from '../assets/DSC08745.jpeg'
+import mypic from '../assets/DSC00547.jpg'
 
 const About = () => {
   return (
@@ -14,8 +14,11 @@ const About = () => {
           </div>
       
           <p1 className="md:mt-[210px] text-zinc-200  md:mr-12 sm:text-center mr-3 ml-3  font-helvetica leading-relaxed ">
-            My experience includes many aspects such as graphic design, programming, film creation, and many others that I have been improving myself in them to be more successful than before. My skills include Programming in Java, C++, C, and Python, photography, and adobe photoshop. I would like to say that getting older doesn't make you more expert except if you improve your skill.       
-            </p1>
+          In the past few years, I have gained experiences
+           and skills that made me achieve my goals.
+            Starting from developing a whole website front-end
+             for the best user experience to book a ticket for a
+              performance or an event in a play house to developing a CRM where the play house admin can manage events, view sales reports, and manage users' accounts. This is one example of a project that I have learned a lot from and spent my time and effort to offer the best. Skills can be learned and can be gained by going to the field and working hard to achieve the standards that I put for myself. Using my skills in programming in python, Javascript, C++, C, Java, and React made me strengthened my ability to develop and build programs that could help others.            </p1>
       
 
         </div>

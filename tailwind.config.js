@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       backgroundImage : {
-      'hero' : "url(../src/assets/DSC06842.jpg)",
+      'hero' : "url(../src/assets/DSC00622.jpg)",
       'hero2' :"url(../src/assets/DJI_0236.jpg)",
       'herom' :"url(../src/assets/bg_m.jpg)", 
       },
