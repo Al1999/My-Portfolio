@@ -7,15 +7,15 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo_w.png';
+import Logo from '../assets/logo_b.png';
 import { Link } from 'react-scroll';
-import resume from '../assets/Al_Resume.pdf'
+import resume from '../assets/Alkhatab.pdf'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-zinc-100 text-xl'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-zinc-300 text-xl'>
       <div className='ml-4'>
         <img src={Logo} alt='Logo Image'  style={{ width: '50px' }} />
       </div>

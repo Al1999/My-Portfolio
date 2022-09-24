@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.51972b49.css",
-    "main.js": "/static/js/main.548cb48d.js",
-    "static/media/DJI_0236.jpg": "/static/media/DJI_0236.05fec3532fd75fce722c.jpg",
+    "main.css": "/static/css/main.bffebfd9.css",
+    "main.js": "/static/js/main.6394650f.js",
     "static/media/DSC00622.jpg": "/static/media/DSC00622.44bb2b93eab9486803fd.jpg",
-    "static/media/DSC00547.jpg": "/static/media/DSC00547.4654e3ee6e8862c83eff.jpg",
-    "static/media/bg_m.jpg": "/static/media/bg_m.1a39008553f880f26370.jpg",
+    "static/media/DSC00880.jpg": "/static/media/DSC00880.5ea9d36a8a0bd1165fb4.jpg",
+    "static/media/DSC00546-4.jpg": "/static/media/DSC00546-4.95dc1efb370c01aad1ad.jpg",
     "static/media/Helvetica.ttf": "/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/React-icon.svg.png": "/static/media/React-icon.svg.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Alkhatab.pdf": "/static/media/Alkhatab.8ebcd841fca4395fc04f.pdf",
     "static/media/1822px-ISO_C++_Logo.svg.png": "/static/media/1822px-ISO_C++_Logo.svg.b16266e0c47f8bfa2e3e.png",
-    "static/media/Al_Resume.pdf": "/static/media/Al_Resume.92780efe97ffdb3682c8.pdf",
     "static/media/926px-C_Programming_Language.svg.png": "/static/media/926px-C_Programming_Language.svg.e01ad20e2109a9e61657.png",
     "static/media/logo_w.png": "/static/media/logo_w.686e33b2be6dfb999f68.png",
+    "static/media/logo_b.png": "/static/media/logo_b.005407f94cee19d68f4b.png",
     "static/media/226777.png": "/static/media/226777.f5dd86c3ef6ef3f85acf.png",
     "static/media/1216733.png": "/static/media/1216733.2c6a71b184b518b01b9a.png",
     "static/media/732190.png": "/static/media/732190.463e319bad8e0edf1ef7.png",
     "static/media/267_Python-512.webp": "/static/media/267_Python-512.7a9da81b5ea6a4550127.webp",
     "index.html": "/index.html",
-    "main.51972b49.css.map": "/static/css/main.51972b49.css.map",
-    "main.548cb48d.js.map": "/static/js/main.548cb48d.js.map"
+    "main.bffebfd9.css.map": "/static/css/main.bffebfd9.css.map",
+    "main.6394650f.js.map": "/static/js/main.6394650f.js.map"
   },
   "entrypoints": [
-    "static/css/main.51972b49.css",
-    "static/js/main.548cb48d.js"
+    "static/css/main.bffebfd9.css",
+    "static/js/main.6394650f.js"
   ]
 }

@@ -19,14 +19,14 @@ const Work = () => {
 
 
     const [nav4, setNav4] = useState(false)
-    const handleClick4 = () => setNav4(!nav4)
+    const handleClick4 = () => setNav4(!nav4)   
 
   return (
     <div name = 'work'   className='w-full h-full'>
         <div className ='w-full h-full bg-hero bg-no-repeat bg-center overflow-hidden bg-cover md:bg-fixed sm:bg-scroll '>
-            <div className='w-full h-full bg-gradient-to-b from-black  '>
+            <div className='w-full h  -full bg-gradient-to-b from-zinc-100 '>
                  <div className='flex flex-col items-center py-9 '>
-                    <div className='text-5xl font-bold text-white mb-1 border-b-4 border-b-[#55a8aa] mt-60'>Work</div>
+                    <div className='text-5xl font-bold text-zinc-500 mb-1 border-b-4 border-b-zinc-700 mt-60'>Work</div>
                     <div className='md:grid md:grid-cols-3 md:gap-8 sm:flex sm:flex-col  sm:gap-5 sm:items-center  mt-20'>
 
                         <div  className="h-96 w-96 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-3xl  shadow-xl  ">
