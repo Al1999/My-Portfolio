@@ -5,9 +5,11 @@ import Skills from "./components/skills";
 import Work from "./components/work";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import { motion } from 'framer-motion';
+
 function App() {
   return (
-    <div >
+    <motion.div initial={{opacity:0}} animate={{ opacity:1 }} transition={{ delay: 0, duration:1 }} >
       <Navbar/>
       <Home/>
       <About/>
@@ -15,7 +17,7 @@ function App() {
       <Work/>
       <Contact/>
       <Footer/>
-    </div>
+    </motion.div>
   );
 }
 

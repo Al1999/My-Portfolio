@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from 'react';
 import {
   FaBars,
@@ -9,56 +10,59 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo_b.png';
 import { Link } from 'react-scroll';
-import resume from '../assets/Alkhatab.pdf'
+import resume from '../assets/Alkhatab.pdf';
+import { motion } from 'framer-motion';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-zinc-300 text-xl'>
-      <div className='ml-4'>
+    <motion.div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-black text-xl'>
+      <motion.div     initial={{ opacity: 0, y:20 }}
+    animate={{ opacity: 0.8, y: 0 }}
+    transition={{ duration: 1 }} className='ml-4'>
         <img src={Logo} alt='Logo Image'  style={{ width: '50px' }} />
-      </div>
+      </motion.div>
 
       {/* menu */}
       <ul className='hidden md:flex gap-6 mr-6 font-bold  '>
-        <li>
+        <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}} >
           <button className='hover:scale-110 transition duration-300 ease-in-out'>
             <Link to='home' smooth={true} duration={500}>
               Home
             </Link>
           </button>
 
-        </li>
-        <li>
+        </motion.li>
+        <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}}>
           <button className='hover:scale-110 transition duration-300 ease-in-out'>
             <Link to='aboutme' smooth={true} duration={500}>
               About
             </Link>
           </button>
 
-        </li>
-        <li>
+        </motion.li>
+        <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}}>
         <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
           </button>
-        </li>
-        <li>
+        </motion.li>
+        <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}}>
         <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
           </button>
-        </li>
-        <li>
+        </motion.li>
+        <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}}>
         <button className='hover:scale-110 transition duration-300 ease-in-out'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
           </button>
-        </li>
+        </motion.li>
       </ul>
 
       {/* Hamburger */}
@@ -152,7 +156,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
