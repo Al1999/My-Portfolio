@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logo_b.png';
+import Logo from '../assets/logo_w.png';
 import { Link } from 'react-scroll';
 import resume from '../assets/Alkhatab.pdf';
 import { motion } from 'framer-motion';
@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <motion.div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-black text-xl'>
+    <motion.div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-zinc-100 text-xl'>
       <motion.div     initial={{ opacity: 0, y:20 }}
     animate={{ opacity: 0.8, y: 0 }}
     transition={{ duration: 1 }} className='ml-4'>
