@@ -129,7 +129,8 @@ const Work = () => {
                                     </motion.div></>
                                     :<> 
                                     <div class=" flex md:h-[49.7rem] sm:w-96 md:w-auto sm:h-[30rem] px-9 py-10 rounded-3xl flex-col items-start bg-zinc-800/40">
-                                        <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1}} class="mb-1 ml-2 text-xl font-bold  text-white">Summary:</motion.h5>
+                                        <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1}} 
+                                        class="mb-1 ml-2 text-xl font-bold  text-white">Summary:</motion.h5>
                                         <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1, delay:0.4}} class="mb-2 ml-2 text-md text-start text-zinc-200">The program would perform data gathering
                                          from C-Tran Breadcrumb records, producing and consuming to Kafka, vaildating the data, integrating the data, and then storing the data in PostgreSQL. At the end, it would perform data visualization.</motion.h5>
                                         <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1, delay:0.6}} class="mb-1 ml-2 text-xl font-bold  text-white">Coded with:</motion.h5>
@@ -141,7 +142,8 @@ const Work = () => {
                         </motion.div>
 
                         <motion.div initial={{ opacity: 0, y:40 }} whileInView={{ opacity: 1, y:0 }} viewport={{ once: true, amount: 0.8 }} transition={{duration:1}}   class=" h-96 w-96 bg-gradient-to-r  from-purple-400 to-yellow-400 rounded-3xl  shadow-xl  " >
-                            <button className=' mt-[21.4rem] ml-[21rem] absolute ' onClick={handleClick2} >
+                            <motion.button initial={{ opacity: 0 }} whileInView={{ opacity: 1, y:0 }} viewport={{ once: true, amount: 0.8 }} transition={{duration:1, delay:1}}
+                             className=' mt-[21.4rem] ml-[21rem] absolute ' onClick={handleClick2} >
                                 {!nav2 ?                                 
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8  "  fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -150,36 +152,31 @@ const Work = () => {
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8  rotate-45" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>}
-                            </button>
-                            <Transition
-                            
-                            show={!nav2}
-                            enter="transition-opacity duration-400"
-                            enterFrom="opacity-0"
-                            enterTo="opacity-100"
-                            leave="transition-opacity duration-600"
-                            leaveFrom="opacity-100"
-                            leaveTo="opacity-0"
+                            </motion.button>
+                            <div >
+                            {!nav2 ? 
+                            <motion.div                                     
+                            initial={{ opacity: 0, y:40 }}
+                            animate={{opacity: 1, y:0 }}
+                            transition={{duration:1}}
                             class="px-9 py-10 absolute ">
                                 <h5 class="ml-2 text-2xl font-bold  text-white">A.I. Wordle Solver</h5>
                                 <h5 class=" ml-2 text-sm   text-zinc-100/80">A.I. Software</h5>
+                            </motion.div>
+                             :
+                             <div className=" flex h-96 w-96 px-9 py-10 rounded-3xl flex-col items-start bg-zinc-800/40">
+                                     <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1}} class="mb-2 ml-2 text-xl font-bold  text-white">Summary:</motion.h5>
+                                     <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1, delay:0.4}} class="mb-4 ml-2 text-md text-start text-zinc-200">a program that would mimic the mechanics of the online Wordle game along
+                                      with an intelligent agent that could play the game and achieve as accurate results as possible.</motion.h5>
+                                     <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1, delay:0.6}} class="mb-2 ml-2 text-xl font-bold  text-white">Coded with:</motion.h5>
+                                     <motion.h5 initial={{ opacity: 0, y:40 }} animate={{opacity: 1, y:0 }} transition={{duration:1, delay:0.8}} class="mb-4 ml-2 text-md text-start text-zinc-200">Python, Pandas</motion.h5>
+                                     <motion.a initial={{ opacity: 0 }} animate={{opacity: 1}} transition={{duration:0.5, delay:1}}
+                                      href="https://github.com/Al1999/Wordle-Game-Solver" className='hover:scale-105  transition duration-300 ease-in-out
+                                        border px-7 py-2 text-white rounded-full mt-4 hover:text-black hover:bg-white'>Code</motion.a>
+                             </div>
+                              }
+                            </div>
 
-                            </Transition>
-                            <Transition
-                            show={nav2}
-                            enter="transition-opacity duration-300"
-                            enterFrom="opacity-0"
-                            enterTo="opacity-100"
-                            leave="transition-opacity duration-600"
-                            leaveFrom="opacity-100"
-                            leaveTo="opacity-0"
-                            class=" flex h-96 w-96 px-9 py-10 rounded-3xl flex-col items-start bg-zinc-800/40">
-                                    <h5 class="mb-2 ml-2 text-xl font-bold  text-white">Summary:</h5>
-                                    <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">a program that would mimic the mechanics of the online Wordle game along with an intelligent agent that could play the game and achieve as accurate results as possible.</h5>
-                                    <h5 class="mb-2 ml-2 text-xl font-bold  text-white">Coded with:</h5>
-                                    <h5 class="mb-4 ml-2 text-md text-start text-zinc-200">Python, Pandas</h5>
-                                    <a href="https://github.com/Al1999/Wordle-Game-Solver" className='hover:scale-105  transition duration-300 ease-in-out  border px-7 py-2 text-white rounded-full mt-4 hover:text-black hover:bg-white'>Code</a>
-                            </Transition>
 
                         </motion.div>
 
